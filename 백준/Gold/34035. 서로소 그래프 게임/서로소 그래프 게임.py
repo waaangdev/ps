@@ -1,0 +1,1 @@
+for i in range(int(input())):print(["kang","chan"][(input()!="2")])
