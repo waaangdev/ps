@@ -1,0 +1,1 @@
+print([0,1550][input()!=input()])
