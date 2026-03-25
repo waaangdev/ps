@@ -50,12 +50,12 @@ sol(1,n,n-k,0,2097152)
 li.sort()
 for i in range(n):
     li[i][0]=i+1
-li.sort(key=lambda x:x[1])
+li2 = [0]*n
 for i in range(n):
-    li[i]=li[i][0]
+    li2[li[i][1]]=li[i][0]
 if(k!=0):
     print("YES")
-    print(*li)
+    print(*li2)
 else:
     print("NO")
 c=0
