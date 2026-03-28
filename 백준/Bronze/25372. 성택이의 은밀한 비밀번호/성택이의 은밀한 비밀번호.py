@@ -1,0 +1,1 @@
+for i in [*open(0)][1:]:print(["no","yes"][6<len(i)<11])
