@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 input()
 li2 = list(map(int,input().split()))
 li = {}
