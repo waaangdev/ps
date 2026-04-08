@@ -39,12 +39,12 @@ for i in range(n):
         else:
             l=mid
     if(seg(0,r+1,0,18)>=inp):
-        print(r+1)
+        sys.stdout.write(str(r+1)+"\n")
         dum = r
         segtree[0][dum]-=inp
         for j in range(1,19):
             dum//=2
             segtree[j][dum]=max(segtree[j-1][dum*2],segtree[j-1][dum*2+1])
     else:
-        print(-1)
+        sys.stdout.write(str(-1)+"\n")
     #print(segtree)
