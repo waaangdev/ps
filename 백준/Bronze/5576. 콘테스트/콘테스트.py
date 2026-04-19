@@ -1,0 +1,1 @@
+print(*[sum(sorted([int(input())for _ in" "*10])[7:])for i in'  '])

@@ -1,0 +1,14 @@
+h,k,v,s=map(int,input().split())
+r=0
+while(h>0):
+    v+=s
+    v-=max(1,v//10)
+    if(v>=k):h+=1
+    else:
+        h=h-1
+        if(h==0):
+            v=0
+    v=max(0,v)
+    r+=v
+    s=max(0,s-1)
+print(r)

@@ -1,0 +1,1 @@
+print(["doubl","tak"][eval(input().replace(" ","*2>"))]+"e it")

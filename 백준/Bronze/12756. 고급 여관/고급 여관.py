@@ -1,0 +1,7 @@
+a,b=list(map(int,input().split()))
+d,c=list(map(int,input().split()))
+e=c//a+(c%a!=0)
+f=b//d+(b%d!=0)
+if(e<f):print("PLAYER A")
+elif(e>f):print("PLAYER B")
+else:print("DRAW")
