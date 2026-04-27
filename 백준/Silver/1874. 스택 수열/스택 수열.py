@@ -34,4 +34,4 @@ for i in range(n):
     else:
         rl = "NO"
         break
-print(rl)
+sys.stdout.write(rl)
